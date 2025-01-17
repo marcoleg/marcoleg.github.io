@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Sfondo bianco */
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 36px; /* Titolo più grande */
+  color: #000; /* Nero */
+}
+
