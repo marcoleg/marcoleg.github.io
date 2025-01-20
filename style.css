@@ -52,22 +52,46 @@ nav {
 }
 
 #hero h1::before {
-  content: "✨ "; /* Emoji scintilla prima del titolo */
-}
-
-#hero h1::after {
-  content: " ✨"; /* Emoji scintilla dopo il titolo */
+  content: "✨ "; /* Emoji scintilla prima della parola "my" */
 }
 
 #hero h2 {
-  font-size: 2em; /* Sottotitolo 2 */
+  font-size: 1.2em; /* Più piccolo */
   margin-bottom: 20px;
 }
 
 #hero p {
-  font-size: 1.2em; /* Testo descrittivo */
+  font-size: 2em; /* Più grande */
   margin-top: 10px;
   line-height: 1.8;
+}
+
+/* About Section */
+#about {
+  padding: 20px;
+  background-color: #fff; /* Corretto colore di sfondo */
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#about a.btn {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1.2em; /* Miglior visibilità */
+  transition: background-color 0.3s;
+}
+
+#about a.btn:hover {
+  background-color: #45a049;
 }
 
 /* Projects Section */
