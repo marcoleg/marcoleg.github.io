@@ -106,11 +106,12 @@ nav {
 }
 
 .project-card img {
-  max-width: 80%;
-  height: auto;
+  max-width: 80%; /* Dimensione dinamica */
+  height: auto; /* Mantiene proporzioni */
   border-radius: 5px;
   margin-bottom: 10px;
 }
+
 
 .project-card h3 {
   font-size: 1.5em;
