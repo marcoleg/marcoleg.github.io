@@ -106,6 +106,14 @@ nav {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   vertical-align: top;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1em;
+  margin-bottom: 15px;
+  overflow: hidden; /* Nasconde il testo che eccede */
+  text-overflow: ellipsis; /* Mostra "..." per il testo in eccesso */
+  display: -webkit-box; /* Per supportare il multiline ellipsis */
+  -webkit-line-clamp: 3; /* Limita a 3 righe */
+  -webkit-box-orient: vertical;
+  height: 4.5em; /* Altezza basata su 3 righe di testo */
 }
 
 .project-card:hover {
