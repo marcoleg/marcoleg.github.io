@@ -94,12 +94,12 @@ nav {
   margin-bottom: 20px;
 }
 
-/* Grid layout for projects */
+/* Grid layout per i progetti */
 .project-grid {
   display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap; /* Supporta più righe */
+  justify-content: center; /* Centra le card orizzontalmente */
+  gap: 20px; /* Spazio tra le card */
+  flex-wrap: wrap; /* Permette di andare a capo su schermi piccoli */
 }
 
 .project-card {
@@ -123,7 +123,7 @@ nav {
 
 .project-card img {
   max-width: 100%;
-  height: 200px; /* Uniforma le immagini */
+  height: 200px; /* Uniforma altezza immagine */
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -137,12 +137,12 @@ nav {
 .project-card p {
   font-size: 1em;
   margin-bottom: 15px;
-  overflow: hidden; /* Evita che il testo esca */
-  text-overflow: ellipsis; /* Mostra "..." per testo lungo */
-  display: -webkit-box; /* Multiline ellipsis */
-  -webkit-line-clamp: 3; /* Limita a 3 righe */
+  overflow: hidden; /* Testo fuori box */
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Mostra max 3 righe */
   -webkit-box-orient: vertical;
-  height: 4.5em; /* Altezza di 3 righe */
+  height: 4.5em;
   text-align: center;
 }
 
