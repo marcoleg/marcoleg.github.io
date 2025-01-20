@@ -101,7 +101,7 @@ nav {
   padding: 15px;
   margin: 10px;
   width: 300px;
-  height: 420px; /* Altezza uniforme */
+  min-height: 420px; /* Altezza minima per uniformare */
   background-color: #f9f9f9;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   vertical-align: top;
@@ -120,15 +120,16 @@ nav {
   margin-bottom: 10px;
 }
 
+.project-card p {
+  font-size: 1em;
+  margin-bottom: 15px;
+  overflow: hidden; /* Evita che il testo esca dalla box */
+  text-overflow: ellipsis; /* Aggiunge "..." se necessario */
+}
 
 .project-card h3 {
   font-size: 1.5em;
   margin-bottom: 10px;
-}
-
-.project-card p {
-  font-size: 1em;
-  margin-bottom: 15px;
 }
 
 .project-card .btn {
