@@ -79,8 +79,8 @@ nav {
 }
 
 .project-card img {
-  width: 150px; /* Ridimensionamento visivo */
-  height: auto; /* Mantiene proporzioni */
+  max-width: 80%; /* L'immagine sarà massimo l'80% della larghezza del contenitore */
+  height: auto; /* Mantieni proporzioni */
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -140,10 +140,10 @@ footer {
   margin-top: 20px;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
   .project-card {
-    width: 90%;
+    width: 90%; /* L'intera card si adatta allo schermo */
     margin: 10px auto;
   }
 }
+
