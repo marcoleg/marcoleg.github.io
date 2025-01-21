@@ -264,16 +264,16 @@ footer {
   padding: 15px;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
   .project-grid {
-    flex-direction: column; /* Disposizione verticale */
+    flex-direction: row; /* Mantieni disposizione orizzontale */
+    overflow-x: auto; /* Scorrimento orizzontale su dispositivi mobili */
     gap: 10px;
   }
 
   .project-card {
-    width: 100%;
-    min-height: 400px; /* Adatta le dimensioni */
+    flex: 0 0 80%; /* Riduci la larghezza per adattarsi al viewport */
+    min-width: 260px;
   }
 }
 
