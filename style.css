@@ -47,35 +47,31 @@ nav {
 }
 
 #hero h1 {
-  font-size: 3em; /* Dimensione uniforme per il titolo */
+  font-size: 3em; /* Titolo principale */
   margin-bottom: 10px;
 }
 
-#hero h1::before {
-  content: ""; /* Nessuna scintilla prima del titolo */
-}
-
 #hero h2 {
-  font-size: 3em; /* Stessa dimensione della prima riga */
+  font-size: 3em; /* Stessa dimensione di h1 */
   margin-bottom: 10px;
 }
 
 #hero h2::before {
-  content: "✨ "; /* Scintilla prima della seconda riga */
+  content: "✨ "; /* Scintilla prima */
 }
 
 #hero h2::after {
-  content: " ✨"; /* Scintilla dopo la seconda riga */
+  content: " ✨"; /* Scintilla dopo */
 }
 
 #hero h3 {
-  font-size: 1.2em; /* La più piccola */
+  font-size: 1em; /* Testo tra parentesi, il più piccolo */
   margin-bottom: 10px;
-  opacity: 0.7; /* Leggermente trasparente per renderla "poco visibile" */
+  opacity: 0.7; /* Trasparenza per enfatizzare la discrezione */
 }
 
 #hero p {
-  font-size: 2em; /* Dimensione intermedia */
+  font-size: 2em; /* Testo descrittivo */
   margin-top: 10px;
   line-height: 1.8;
 }
