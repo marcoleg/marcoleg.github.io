@@ -47,7 +47,7 @@ nav {
   background-position: center;
   color: white;
   padding: 10px 10px; /* Ridotto lo spazio verticale */
-  font-family: "Comic Sans MS", "Comic Sans", cursive; /* Font Comic Sans */
+  font-family: "Comic Sans MS", "Comic Sans"; /* Font Comic Sans */
 }
 
 #hero h1 {
